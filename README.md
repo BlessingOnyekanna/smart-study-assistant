@@ -7,11 +7,7 @@
 
 Built with **Streamlit + OpenAI** — the all-in-one AI study companion featuring **Dark/Light themes**, **file uploads**, and a built-in **Pomodoro timer** for laser-focused productivity.
 
-<p align="center">
-  <img src="preview.png" alt="Smart Study Assistant Light Theme" width="48%" style="border-radius:8px; margin-right:1%;" />
-  <img src="dark-preview.png" alt="Smart Study Assistant Dark Theme" width="48%" style="border-radius:8px;" />
-</p>
-
+![Smart Study Assistant Screenshot](preview.png)
 
 </div>
 
@@ -77,5 +73,54 @@ pip install -r requirements.txt
 # 4️⃣ Add your OpenAI API key
 echo "OPENAI_API_KEY=sk-your-key-here" > .env
 
+**🧾 Requirements**
+streamlit==1.32.2
+openai==0.28.1
+python-dotenv
+fpdf
+PyPDF2
+docx2txt
+
+
+🌗 Theming Preview
+| ☀️ Light Mode               | 🌙 Dark Mode               |
+| --------------------------- | -------------------------- |
+| ![Light Theme](preview.png) | ![Dark Theme](dark-preview.png) |
+
+💡 Usage Tips
+
+Upload notes or paste text → choose your Target Level & Style.
+
+Use Pomodoro for deep focus; generate quizzes after each session.
+
+Export AI outputs as PDFs for revision or sharing.
+
+Switch to Dark Mode for late-night sessions.
+
+Track your learning stats in the sidebar.
+
+🏆 Why This Project
+
+“I wanted to design an AI tool that doesn’t just answer questions — it actually supports how students learn, recall, and focus.”
+— Blessing Onyekanna
+
+Built to showcase:
+
+Prompt-engineering & LLM integration skills
+
+Real-world Python + AI application design
+
+Strong UI/UX thinking with educational value
+
+Awareness of cognitive learning strategies (active recall, spaced repetition)
+
+Perfect for AI, Cloud, and portfolios.
 # 5️⃣ Run the app
 streamlit run app.py
+
+<div align="center">
+
+✨ Built with love, Streamlit, and OpenAI by Blessing Onyekanna.
+📚 For learners who dream, build, and never stop studying.
+
+</div> `
