@@ -1,0 +1,81 @@
+<div align="center">
+
+# 🎓 **Smart Study Assistant**
+### _AI-Powered Learning Dashboard for Students_
+
+**Summarize • Explain • Quiz • Flashcards • Focus**
+
+Built with **Streamlit + OpenAI** — the all-in-one AI study companion featuring **Dark/Light themes**, **file uploads**, and a built-in **Pomodoro timer** for laser-focused productivity.
+
+<p align="center">
+  <img src="preview.png" alt="Smart Study Assistant Light Theme" width="48%" style="border-radius:8px; margin-right:1%;" />
+  <img src="dark-preview.png" alt="Smart Study Assistant Dark Theme" width="48%" style="border-radius:8px;" />
+</p>
+
+
+</div>
+
+---
+
+## 🚀 Live Demo
+
+🔗 **Try it here:** [Launch Smart Study Assistant](https://miniature-journey-697vxqgrv6pf9g7-8501.app.github.dev)  
+*(or run locally using the steps below)*
+
+---
+
+## 🧠 Features
+
+### 🎓 Core AI Tools
+- 📝 **Summarize** long notes into concise, exam-ready points.  
+- 💡 **Explain** complex concepts with adjustable difficulty levels (Beginner → Advanced).  
+- ❓ **Quiz Me** generates MCQs with revealable answers.  
+- 🃏 **Flashcards** for active recall and self-testing.  
+- 🎯 **Study Path Suggestions** – AI recommends your next 5 learning steps.
+
+### ⚡ Productivity Boosters
+- ⏱ **Pomodoro Focus Timer** – stay disciplined with timed study/break sessions.  
+- 🌗 **Light ↔ Dark Theme Toggle** – switch instantly for comfort day or night.  
+- 📂 **File Upload Support** – import `.pdf`, `.docx`, or `.txt` files with automatic text extraction.  
+- 🧩 **Adaptive Style Controls** – choose between *Step-by-Step*, *With Examples*, or *Short & Direct*.  
+- 📊 **Quick Stats & History** – track progress across sessions.
+
+### 🪄 Design Highlights
+- Crafted with **custom CSS** for a premium, modern UI.  
+- Responsive layout for desktop & mobile.  
+- Secure API usage with `.env` – no keys stored in code.
+
+---
+
+## 🧩 Tech Stack
+
+| Layer | Tools |
+|-------|-------|
+| **Frontend** | Streamlit, Custom CSS (Poppins + Gradients) |
+| **AI Engine** | OpenAI GPT-3.5-Turbo |
+| **File Parsing** | PyPDF2, docx2txt |
+| **PDF Export** | FPDF |
+| **State Mgmt** | Streamlit Session State |
+| **Env Mgmt** | python-dotenv |
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# 1️⃣ Clone the repo
+git clone https://github.com/<your-username>/smart-study-assistant.git
+cd smart-study-assistant
+
+# 2️⃣ Create & activate a virtual environment
+python -m venv .venv
+source .venv/bin/activate     # or .\.venv\Scripts\activate on Windows
+
+# 3️⃣ Install dependencies
+pip install -r requirements.txt
+
+# 4️⃣ Add your OpenAI API key
+echo "OPENAI_API_KEY=sk-your-key-here" > .env
+
+# 5️⃣ Run the app
+streamlit run app.py

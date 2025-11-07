@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env.bak
+env.bak/
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# Streamlit
+.streamlit/
+
+# OS junk
+.DS_Store
+Thumbs.db
